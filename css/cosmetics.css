@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    padding: 0;
+    font: Arial, sans-serif;
+    background-color: #EFECE3
+
+}
+
+/* MAIN NAVBAR */
+.navbar-main-container {
+    background-color: #0C2B4E;
+    color: rgb(228, 228, 229);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 30px;
+    position: sticky;
+    top: 0;
+    
+}
+
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.project-name {
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.main-logo {
+    width: 45px;
+    height: 45px;
+    border-radius: 70%;
+}
+
+/* NAV LINKS */
+.navbar-links-container {
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+}
+
+.nav-links-text {
+    text-decoration: none;
+    color: #F6F8D5;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* SEARCH BAR */.search-bar{
+    display: flex;
+    align-items: center;
+    background-color: #f5f5f5;
+    border-radius: 20px;
+    padding: 8px 12px;
+    width: 150px;
+    margin-top: 20px;
+    margin-right: 50px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+ }
+
+ .search-bar input{
+    border: none;
+    background: transparent;
+    outline: none;
+    flex: 1;
+    font-size: 16px;
+ }
+
+@media (max-width: 992px) {
+    .navbar-main-container {
+        padding: 12px 20px;
+    }
+    .navbar-links-container {
+        gap: 20px;
+    }
+    .project-name {
+        font-size: 20px;
+    }
+}
+
+/* MOBILE VIEW */
+@media (max-width: 768px) {
+    .navbar-main-container {
+        flex-direction: column;
+        align-items: start;
+        gap: 12px;
+    }
+
+    .navbar-links-container {
+        flex-direction: column;
+        gap: 12px;
+        width: 100%;
+    }
+
+    .nav-links-text {
+        padding: 6px 0;
+        display: block;
+    }
+
+    .search-bar {
+        width: 100%;
+        margin: 0;
+    }
+
+    .top-options {
+        margin-right: 0;
+        width: 100%;
+        justify-content: start;
+    }
+}
+
+
+
+@media (max-width: 480px) {
+    .project-name {
+        font-size: 18px;
+    }
+    .main-logo {
+        width: 38px;
+        height: 38px;
+    }
+    .navbar-links-container {
+        gap: 10px;
+    }
+}
