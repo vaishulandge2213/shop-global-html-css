@@ -68,10 +68,11 @@
      padding: 5px;
      margin-top: 0px;
  }
- .links-text{
-    color: black;
-    font-size: larger;
-    cursor: pointer;
+
+ .links-text {
+     color: black;
+     font-size: larger;
+     cursor: pointer;
  }
 
  .card-image1 {
