@@ -128,7 +128,7 @@
  }
 
  .buy-button {
-     display: flex;
+     display:flex;
      align-items: center;
      gap: 8px;
      background-color: #89da75;
@@ -140,6 +140,7 @@
      color: white;
      font-weight: bold;
      transition: 0.3s ease;
+     text-decoration: none;
  }
 
  .description {
@@ -212,6 +213,7 @@ font-weight: bold;
 margin-bottom: 10px;
 cursor: pointer;
 }
+
 .buy-button-1:hover{
         background-color: #61ae4f;
         transform: scale(1.05);
@@ -224,4 +226,25 @@ cursor: pointer;
 @media (max-width: 768px){
 
 }
+
+.button{
+ display:inline-block;
+     align-items: center;
+     gap: 8px;
+     background-color: #1A3D64;
+     border: none;
+     border-radius: 8px;
+     padding: 10px 20px;
+     cursor: pointer;
+     font-size: 18px;
+     color: white;  
+     font-weight: bold;  
+     text-decoration: none;
+}
  
+.button:hover {
+     color: white;
+     transition: all 0.3s ease;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      background-color: #61ae4f;
+}
