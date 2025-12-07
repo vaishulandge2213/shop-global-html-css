@@ -4,33 +4,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shop Global</title>
+    <title>Shop-global</title>
     <link rel="stylesheet" href="./../css/style.css">
-    <link rel="icon" href="./images/main-logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="./../css/navbar.css" >
-    <link rel="stylesheet" href="./../css/card.css">
+    <link rel="stylesheet" href="./../css/navbar.css">
     <link rel="stylesheet" href="./../css/jewellery.css">
-   <link rel="stylesheet" href="./../css/footer.css">
+    <link rel="stylesheet" href="./../css/card.css">
+    <link rel="stylesheet" href="./../css/footer.css">
 </head>
 
-<body>
-   
+<body style="margin: 0%; padding:0%; overflow-x:hidden">
+    <div>
         <div class="navbar-main-container">
             <div class="logo-container">
-                <img src="./../images/main-logo.png" alt="smart shop logo " height="80px" class="main-logo" />
+                <img src="./../images/common-image/main-logo.png" alt="smart shop logo " height="80px"
+                    class="main-logo" />
                 <b class="project-name">Shop Global</b>
 
             </div>
             <div class="navbar-links-container">
-                <span><a href="./../index.html" class="nav-links-text">Fashion</a></span>
-                <span><a href="./toy.html" class="nav-links-text">kids & Toy</a></span>
-                <span><a href="./electronics.html" class="nav-links-text">Electronics</a></span>
-                <span><a href="./jewellery.html" class="nav-links-text">Jewellery</a></span>
-                <span><a href="./cosmetics.html" class="nav-links-text">Cosmetics</a></span>
-                <span><a href="./grocery.html" class="nav-links-text">Grocery</a></span>
-
+                <span><a href="./../index.html" class="nav-links-text">Home</a></span>
+                <span><a href="./../pages/fashion.html" class="nav-links-text">Fashion</a></span>
+                <span><a href="./../pages/toy.html" class="nav-links-text">kids & Toy</a></span>
+                <span><a href="./../pages/electronics.html" class="nav-links-text">Electronics</a></span>
+                <span><a href="./../pages/jewellery.html" class="nav-links-text">Jewellery</a></span>
+                <span><a href="./../pages/cosmetics.html" class="nav-links-text">Cosmetics</a></span>
+                <span><a href="./../pages/grocery.html" class="nav-links-text">Grocery</a></span>
+                <span><a href="./../pages/help.html" class="nav-links-text">Help</a>
             </div>
             <div class="search-bar">
+                <img src="./../images/common-image/search.png" class="search-icon">
                 <i class="fa-solid fa-magnifying-glass" style="color: black;"></i>&nbsp;<input type="text"
                     placeholder="Search">
             </div>
@@ -38,197 +40,589 @@
                 <div class="top-options">
                     <a href="./feedback.html" class="top-link">Feedback</a>
                     <span>|</span>
-                    <a href="./contact.html" class="top-link">Help</a>
+                    <a href="./signUp.html" class="top-link">Sign up</a>
                     <span>|</span>
                     <a href="./login.html" class="top-link">Login</a>
                 </div>
             </div>
         </div>
-        <div>
-            <div class="crad-contanor">
-                <div class="card-cont">
-                    <img src="./../images/jewellery-images/gold-necklace-set.jpg" alt="jewellery" class="card-image2">
-                    <span class="card-name">Gold Necklace Set </span>
-                    <span class="description">Perfect for Weddings, Festivals & Parties.</span>
-                    <span class="price">₹3999</span>
-                    <div class="buy-button-container">
-                        <button class="buy-button">
-                            Buy Now
-                        </button>
-                    </div>
+    </div>
+
+
+
+
+    <div>
+        <div class="name">
+            <h2>Classic Jewellery Collection</h2>
+        </div>
+
+
+        <section>
+            <div class="card-container">
+                <div class="card2">
+                    <img src="./../images/jewellery-images/gold-neck-jewellery-1.jpg" alt=" Gold Neck Jewellery"
+                        class="card-image">
+                    <h2><a href="#Gold Neck" class="links-text"><button class="buy-button-1"> Gold Neck
+                            </button></a>
+                    </h2>
+
+                </div>
+                <div class="card2">
+                    <img src="./../images/jewellery-images/silver-neck-jewellery.jpeg" alt="Silver Neck jewellery"
+                        class="card-image">
+                    <h2><a href="#Silver Neck" class="links-text"><button class="buy-button-1">Silver
+                                Neck</button></a>
+                    </h2>
+
+                </div>
+                <div class="card2">
+                    <img src="./../images/jewellery-images/ear-jewellery.jpg" alt="earrings" class="card-image">
+                    <h2><a href="#Earrings" class="links-text"><button class="buy-button-1">Earrings</button></a>
+                    </h2>
+
+                </div>
+                <div class="card2">
+                    <img src="./../images/jewellery-images/bangles-jewellery.jpg" alt="bangles" class="card-image">
+                    <h2><a href="#Hand" class="links-text"><button class="buy-button-1">Hand
+                            </button></a></h2>
+
+                </div>
+                <div class="card2">
+                    <img src="./../images/jewellery-images/nose-pins-jewellery.jpg" alt="Nose Pins" class="card-image">
+                    <h2><a href="#Nose Pins" class="links-text"><button class="buy-button-1">Nose Pins</button></a>
+                    </h2>
+
                 </div>
 
-                <div class="card-cont">
-                    <img src="./../images/jewellery-images/silver-necklace.jpg" alt="jewellery" class="card-image2">
-                    <span class="card-name">Silver Necklace</span>
-                    <span class="description">A beautifully crafted sterling silver necklace that adds timeless shine to
-                        any outfit.</span>
-                    <span class="price">₹2999</span>
-                    <div class="buy-button-container">
-                        <button class="buy-button">
-                            Buy Now
-                        </button>
-                    </div>
-                </div>
+            </div>
 
-                <div class="card-cont">
-                    <img src="./../images/jewellery-images/earrings.jpg" alt="jewellery" class="card-image2">
-                    <span class="card-name">Earrings</span>
-                    <span class="description">Stylish, and easy to match—these earrings add a subtle sparkle to your
-                        look.</span>
-                    <span class="price">₹799</span>
-                    <div class="buy-button-container">
-                        <button class="buy-button">
-                            Buy Now
-                        </button>
-                    </div>
-                </div>
+        </section>
 
-                <div class="card-cont">
-                    <img src="./../images/jewellery-images/bracelet.jpg" alt="jewellery" class="card-image2">
-                    <span class="card-name">Bracelet</span>
-                    <span class="description">Light, comfortable, and easy to match with any outfit.</span>
-                    <span class="price">₹499</span>
-                    <div class="buy-button-container">
-                        <button class="buy-button">
-                            Buy Now
-                        </button>
-                    </div>
-                </div>
+        <div class="Main-card-title-1">
+            <h2 id="Gold Neck">Gold Neck</h2>
+        </div>
 
-                <div class="card-cont">
-                    <img src="./../images/jewellery-images/ring.jpg" alt="jewellery" class="card-image2">
-                    <span class="card-name">Ring</span>
-                    <span class="description">A beautifully crafted ring designed to add a touch of elegance to your
-                        everyday look.</span>
-                    <span class="price">₹886</span>
-                    <div class="buy-button-container">
-                        <button class="buy-button">
-                            Buy Now
-                        </button>
-                    </div>
-                </div>
 
-                <div class="card-cont">
-                    <img src="./../images/jewellery-images/jhumka.jpg" alt="jewellery" class="card-image2">
-                    <span class="card-name"> Jhumka </span>
-                    <span class="description">Bring a touch of tradition to your look with these simple yet elegant
-                        jhumkas.</span>
-                    <span class="price">₹1001</span>
-                    <div class="buy-button-container">
-                        <button class="buy-button">
-                            Buy Now
-                        </button>
-                    </div>
-                </div>
 
-                <div class="card-cont">
-                    <img src="./../images/jewellery-images/bangles.jpg" alt="jewellery" class="card-image2">
-                    <span class="card-name">Bangles</span>
-                    <span class="description">Classic bangles that never go out of style, ideal for any occasion.</span>
-                    <span class="price">₹2049</span>
-                    <div class="buy-button-container">
-                        <button class="buy-button">
-                            Buy Now
-                        </button>
-                    </div>
-                </div>
+        <div class="crad-contanor">
 
-                <div class="card-cont">
-                    <img src="./../images/jewellery-images/anklet.jpg" alt="jewellery" class="card-image2">
-                    <span class="card-name">Anklet</span>
-                    <span class="description">Wear it all day without worry — elegant, lightweight, and comfortable for
-                        every occasion.</span>
-                    <span class="price">₹949</span>
-                    <div class="buy-button-container">
-                        <button class="buy-button">
+            <div class="card-cont">
+                <img src="./../images/jewellery-images/gold-necklace.jpg" alt="Gold Neck" class="card-image2">
+                <span class="card-name">Short Necklace</span>
+                <span class="description">Perfect for Weddings, Festivals & Parties. - 1 Gram | Short
+                    Necklace</span>
+                <span class="price">₹ 12500</span>
+                <div class="buy-button-container">
+                    <a href="./../pages/login.html"><button class="button">
                             Buy Now
-                        </button>
-                    </div>
-                </div>
-
-                <div class="card-cont">
-                    <img src="./../images/jewellery-images/bajuband.jpg" alt="jewellery" class="card-image2">
-                    <span class="card-name"> Armlet (Bajuband)</span>
-                    <span class="description">Enhance your ethnic look with this beautifully crafted Bajuband. Perfect
-                        for weddings, festivals, or special occasions</span>
-                    <span class="price">₹899</span>
-                    <div class="buy-button-container">
-                        <button class="buy-button">
-                            Buy Now
-                        </button>
-                    </div>
-                </div>
-
-                <div class="card-cont">
-                    <img src="./../images/jewellery-images/nose-pin.jpg" alt="jewellery" class="card-image2">
-                    <span class="card-name">Nose Pin</span>
-                    <span class="description">Designed for comfort and style, this nose ring is light on the nose yet
-                        full of charm.</span>
-                    <span class="price">₹299</span>
-                    <div class="buy-button-container">
-                        <button class="buy-button">
-                            Buy Now
-                        </button>
-                    </div>
-                </div>
-
-                <div class="card-cont">
-                    <img src="./../images/jewellery-images/long-necklace.jpg" alt="fashion" class="card-image2">
-                    <span class="card-name">Long Necklace</span>
-                    <span class="description">Perfect for weddings, parties, and special celebrations</span>
-                    <span class="price">₹3999</span>
-                    <div class="buy-button-container">
-                        <button class="buy-button">
-                            Buy Now
-                        </button>
-                    </div>
-                </div>
-
-                <div class="card-cont">
-                    <img src="./../images/jewellery-images/toe-ring.jpg" alt="jewellery" class="card-image2">
-                    <span class="card-name">Toe Ring</span>
-                    <span class="description">A beautifully toe ring that adds a delicate charm to your feet</span>
-                    <span class="price">₹2249</span>
-                    <div class="buy-button-container">
-                        <button class="buy-button">
-                            Buy Now
-                        </button>
-                    </div>
-                </div>
-
-                <div class="card-cont">
-                    <img src="./../images/jewellery-images/nose-ring-nath.jpg" alt="fashion" class="card-image2">
-                    <span class="card-name">Nose Ring (Nath)</span>
-                    <span class="description">Make your bridal look complete with our premium Nath, designed to reflect
-                        grace, tradition.</span>
-                    <span class="price">₹370</span>
-                    <div class="buy-button-container">
-                        <button class="buy-button">
-                            Buy Now
-                        </button>
-                    </div>
-                </div>
-
-                <div class="card-cont">
-                    <img src="./../images/jewellery-images/kamarbandh.jpg" alt="jewellery" class="card-image2">
-                    <span class="card-name">Waist Belt (Kamarbandh)</span>
-                    <span class="description">A must-have for brides, giving a luxurious and graceful finish to your
-                        bridal look.</span>
-                    <span class="price">₹390</span>
-                    <div class="buy-button-container">
-                        <button class="buy-button">
-                            Buy Now
-                        </button>
-                    </div>
+                        </button></a>
                 </div>
             </div>
+
+            <div class="card-cont">
+                <img src="./../images/jewellery-images/gold-chokar.jpg" alt="Gold Neck" class="card-image2">
+                <span class="card-name">Chokar</span>
+                <span class="description">Perfect for Weddings, Festivals & Parties. - 1.5 Gram | Chokar</span>
+                <span class="price">₹ 16999</span>
+                <div class="buy-button-container">
+                    <a href="./../pages/login.html"><button class="button">
+                            Buy Now
+                        </button></a>
+                </div>
+            </div>
+
+            <div class="card-cont">
+                <img src="./../images/jewellery-images/gold-long-necklace.jpg" alt="Gold Neck" class="card-image2">
+                <span class="card-name">Long Necklace</span>
+                <span class="description">Perfect for Weddings, Festivals & Daily use. - 3 Gram
+                    | Long Necklace</span>
+                <span class="price">₹ 25000</span>
+                <div class="buy-button-container">
+                    <a href="./../pages/login.html"><button class="button">
+                            Buy Now
+                        </button></a>
+                </div>
+            </div>
+            <div class="card-cont">
+                <img src="./../images/jewellery-images/gold-short-mangalsutra.jpg" alt="Gold Necklace"
+                    class="card-image2">
+                <span class="card-name">Short Mangalsutra</span>
+                <span class="description">Perfect design for daily use. - 1 Gram | Short Mangalsutra </span>
+                <span class="price">₹ 15499</span>
+                <div class="buy-button-container">
+                    <a href="./../pages/login.html"><button class="button">
+                            Buy Now
+                        </button></a>
+                </div>
+            </div>
+            <div class="card-cont">
+                <img src="./../images/jewellery-images/long-mangalsutra.jpg" alt="Gold Neck" class="card-image2">
+                <span class="card-name">Long Mangalsutra</span>
+                <span class="description">Perfect design for daily use. - 1 Gram | Long Mangalsutra</span>
+                <span class="price">₹15999</span>
+                <div class="buy-button-container">
+                    <a href="./../pages/login.html"><button class="button">
+                            Buy Now
+                        </button></a>
+                </div>
+            </div>
+            <div class="card-cont">
+                <img src="./../images/jewellery-images/gold-chain.jpg" alt="Gold Neck" class="card-image2">
+                <span class="card-name">Gold Chain</span>
+                <span class="description">Pure gold chain with a sleek, elegant design. -1 Gram | Gold Chain</span>
+                <span class="price">₹ 18099</span>
+                <div class="buy-button-container">
+                    <a href="./../pages/login.html"><button class="button">
+                            Buy Now
+                        </button></a>
+                </div>
+            </div>
+            <div class="card-cont">
+                <img src="./../images/jewellery-images/short-necklace.jpg" alt="Gold Neck" class="card-image2">
+                <span class="card-name">Short Necklace</span>
+                <span class="description">Perfect for weddings and Parties.</span>
+                <span class="price">₹ 19899</span>
+                <div class="buy-button-container">
+                    <a href="./../pages/login.html"><button class="button">
+                            Buy Now
+                        </button></a>
+                </div>
+            </div>
+            <div class="card-cont">
+                <img src="./../images/jewellery-images/pendent.jpg" alt="Gold Neck" class="card-image2">
+                <span class="card-name">Pendent</span>
+                <span class="description"> Perfect for Wedding, Parties and daily use. </span>
+                <span class="price">₹ 10999</span>
+                <div class="buy-button-container">
+                    <a href="./../pages/login.html"><button class="button">
+                            Buy Now
+                        </button></a>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="Main-card-title-1">
+            <h2 id="Silver Neck">Silver Neck</h2>
+        </div>
+
+
+        <div class="crad-contanor">
+
+            <div class="card-cont">
+                <img src="./../images/jewellery-images/silver-short-necklace.jpg" alt="Silver Neck" class="card-image2">
+                <span class="card-name">Short Necklace</span>
+                <span class="description">Perfect for parties, Events and any outfit</span>
+                <span class="price">₹ 6580</span>
+                <div class="buy-button-container">
+                    <a href="./../pages/login.html"><button class="button">
+                            Buy Now
+                        </button></a>
+                </div>
+            </div>
+
+            <div class="card-cont">
+                <img src="./../images/jewellery-images/silver-long-necklace.jpg" alt="Silver Neck" class="card-image2">
+                <span class="card-name">Long Necklace</span>
+                <span class="description">everyday style with this beautiful Silver Long Necklace, designed to add
+                    effortless elegance to any outfit.</span>
+                <span class="price">₹ 18986</span>
+                <div class="buy-button-container">
+                    <a href="./../pages/login.html"><button class="button">
+                            Buy Now
+                        </button></a>
+                </div>
+            </div>
+
+            <div class="card-cont">
+                <img src="./../images/jewellery-images/silver-chokar.jpg" alt="Silver Neck" class="card-image2">
+                <span class="card-name">Chokar</span>
+                <span class="description">Light, comfortable and beautifully polished to match any outfit
+                    effortlessly.</span>
+                <span class="price">₹ 4099</span>
+                <div class="buy-button-container">
+                    <a href="./../pages/login.html"><button class="button">
+                            Buy Now
+                        </button></a>
+                </div>
+            </div>
+            <div class="card-cont">
+                <img src="./../images/jewellery-images/silver-chain.jpg" alt="Silver Neck" class="card-image2">
+                <span class="card-name"> Silver Chain</span>
+                <span class="description">Shine every day with this classic Silver Chain</span>
+                <span class="price">₹ 1099</span>
+                <div class="buy-button-container">
+                    <a href="./../pages/login.html"><button class="button">
+                            Buy Now
+                        </button></a>
+                </div>
+            </div>
+            <div class="card-cont">
+                <img src="./../images/jewellery-images/silver-pendent.jpg" alt="Silver Neck" class="card-image2">
+                <span class="card-name">Pendent</span>
+                <span class="description">Pure silver, pure elegance. Add timeless beauty to your neckline.</span>
+                <span class="price">₹799</span>
+                <div class="buy-button-container">
+                    <a href="./../pages/login.html"><button class="button">
+                            Buy Now
+                        </button></a>
+                </div>
+            </div>
+            <div class="card-cont">
+                <img src="./../images/jewellery-images/silver-mangalsutra.jpg" alt="Silver Neck" class="card-image2">
+                <span class="card-name">Mangalsutra</span>
+                <span class="description">A timeless Silver Mangalsutra designed for today’s modern woman. Pure,
+                    elegant, and beautifully minimal for daily wear. </span>
+                <span class="price">₹ 3090</span>
+                <div class="buy-button-container">
+                    <a href="./../pages/login.html"><button class="button">
+                            Buy Now
+                        </button></a>
+                </div>
+            </div>
+            <div class="card-cont">
+                <img src="./../images/jewellery-images/silver-long-necklace-2.jpg" alt="Silver Neck"
+                    class="card-image2">
+                <span class="card-name">Long Necklace</span>
+                <span class="description">Perfect for parties, Events and any outfit</span>
+                <span class="price">₹ 17080</span>
+                <div class="buy-button-container">
+                    <a href="./../pages/login.html"><button class="button">
+                            Buy Now
+                        </button></a>
+                </div>
+            </div>
+            <div class="card-cont">
+                <img src="./../images/jewellery-images/silver-pendent-2.jpg" alt="Silver Neck" class="card-image2">
+                <span class="card-name">Silver Pendents</span>
+                <span class="description">A delicate silver pendant that elevates your everyday style
+                    effortlessly.</span>
+                <span class="price">₹ 945</span>
+                <div class="buy-button-container">
+                    <a href="./../pages/login.html"><button class="button">
+                            Buy Now
+                        </button></a>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="Main-card-title-1">
+            <h2 id="Earrings">Earrings</h2>
+        </div>
+
+
+        <div class="crad-contanor">
+
+            <div class="card-cont">
+                <img src="./../images/jewellery-images/diamond-earring.jpg" alt="Earrings" class="card-image2">
+                <span class="card-name">Diamond Earring</span>
+                <span class="description">A perfect blend of simplicity and sparkle — diamond earrings that suit
+                    every outfit.</span>
+                <span class="price">₹4588</span>
+                <span></span>
+                <div class="buy-button-container">
+                    <a href="./../pages/login.html"><button class="button">
+                            Buy Now
+                        </button></a>
+                </div>
+            </div>
+
+            <div class="card-cont">
+                <img src="./../images/jewellery-images/butterfly-earring.jpg" alt="Earrings" class="card-image2">
+                <span class="card-name">Butterfly Earring</span>
+                <span class="description">Delicate, cute, and perfect for daily wear.</span>
+                <span class="price">₹199</span>
+                <div class="buy-button-container">
+                    <a href="./../pages/login.html"><button class="button">
+                            Buy Now
+                        </button></a>
+                </div>
+            </div>
+
+            <div class="card-cont">
+                <img src="./../images/jewellery-images/flower-earring.jpg" alt="Earrings" class="card-image2">
+                <span class="card-name">Flower Earrings</span>
+                <span class="description">Delicate, cute, and perfect for daily wear.</span>
+                <span class="price">₹149</span>
+                <div class="buy-button-container">
+                    <a href="./../pages/login.html"><button class="button">
+                            Buy Now
+                        </button></a>
+                </div>
+            </div>
+            <div class="card-cont">
+                <img src="./../images/jewellery-images/pearl earring.jpg" alt="Earrings" class="card-image2">
+                <span class="card-name">Pearl Earring</span>
+                <span class="description">Perfect for parties, traditions, and everyday charm.</span>
+                <span class="price">₹799</span>
+                <div class="buy-button-container">
+                    <a href="./../pages/login.html"><button class="button">
+                            Buy Now
+                        </button></a>
+                </div>
+            </div>
+            <div class="card-cont">
+                <img src="./../images/jewellery-images/chandbali-earring.jpg" alt="Earrings" class="card-image2">
+                <span class="card-name">Chandbali Earring</span>
+                <span class="description">Discover the beauty of simplicity with our Chandbali Earrings.</span>
+                <span class="price">₹499</span>
+                <div class="buy-button-container">
+                    <a href="./../pages/login.html"><button class="button">
+                            Buy Now
+                        </button></a>
+                </div>
+            </div>
+            <div class="card-cont">
+                <img src="./../images/jewellery-images/jhumka.jpg" alt="Earrings" class="card-image2">
+                <span class="card-name">Jhumka</span>
+                <span class="description">Jhumkas are made to match every outfit and every mood.</span>
+                <span class="price">₹299</span>
+                <div class="buy-button-container">
+                    <a href="./../pages/login.html"><button class="button">
+                            Buy Now
+                        </button></a>
+                </div>
+            </div>
+            <div class="card-cont">
+                <img src="./../images/jewellery-images/peacock-jhumka.jpg" alt="Earrings" class="card-image2">
+                <span class="card-name">Peacock Jhumka</span>
+                <span class="description">Turn heads with our stunning Peacock Jhumka collection!</span>
+                <span class="price">₹349</span>
+                <div class="buy-button-container">
+                    <a href="./../pages/login.html"><button class="button">
+                            Buy Now
+                        </button></a>
+                </div>
+            </div>
+            <div class="card-cont">
+                <img src="./../images/jewellery-images/ear-cuffs.jpg" alt="Earrings" class="card-image2">
+                <span class="card-name">Earcuffs</span>
+                <span class="description">Our premium earcuffs add a bold, stylish touch to your look.</span>
+                <span class="price">₹299</span>
+                <div class="buy-button-container">
+                    <a href="./../pages/login.html"><button class="button">
+                            Buy Now
+                        </button></a>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="Main-card-title-1">
+            <h2 id="Hand">Hand Jewellery</h2>
+        </div>
+
+        <div class="crad-contanor">
+
+            <div class="card-cont">
+                <img src="./../images/jewellery-images/kada-bangles.jpg" alt="Hand Jewellery" class="card-image2">
+                <span class="card-name"> Kada</span>
+                <span class="description">Perfect for daily use and any outfit. </span>
+                <span class="price">₹ 499</span>
+                <div class="buy-button-container">
+                    <a href="./../pages/login.html"><button class="button">
+                            Buy Now
+                        </button></a>
+                </div>
+            </div>
+
+            <div class="card-cont">
+                <img src="./../images/jewellery-images/metal-bangles.jpg" alt="Hand Jewellery" class="card-image2">
+                <span class="card-name">Metal bangles</span>
+                <span class="description">Perfect for daily wear and festive glam.</span>
+                <span class="price">₹ 349</span>
+                <div class="buy-button-container">
+                    <a href="./../pages/login.html"><button class="button">
+                            Buy Now
+                        </button></a>
+                </div>
+            </div>
+
+            <div class="card-cont">
+                <img src="./../images/jewellery-images/silver-bangles.jpg" alt="Hand Jewellery" class="card-image2">
+                <span class="card-name">Oxide Bangles</span>
+                <span class="description">Perfect for girls and women who love a subtle ethnic touch.</span>
+                <span class="price">₹ 449</span>
+                <div class="buy-button-container">
+                    <a href="./../pages/login.html"><button class="button">
+                            Buy Now
+                        </button></a>
+                </div>
+            </div>
+            <div class="card-cont">
+                <img src="./../images/jewellery-images/bracelet.jpg" alt="Hand Jewellery" class="card-image2">
+                <span class="card-name">Bracelet</span>
+                <span class="description">Perfect for daily wear or special occasions</span>
+                <span class="price">₹ 149</span>
+                <div class="buy-button-container">
+                    <a href="./../pages/login.html"><button class="button">
+                            Buy Now
+                        </button></a>
+                </div>
+            </div>
+            <div class="card-cont">
+                <img src="./../images/jewellery-images/haathphool.jpg" alt="Hand Jewellery" class="card-image2">
+                <span class="card-name">Haathphool</span>
+                <span class="description">With perfect design and exquisite finish, it complements both traditional
+                    and modern looks.</span>
+                <span class="price">₹ 580</span>
+                <div class="buy-button-container">
+                    <a href="./../pages/login.html"><button class="button">
+                            Buy Now
+                        </button></a>
+                </div>
+            </div>
+            <div class="card-cont">
+                <img src="./../images/jewellery-images/ring.jpg" alt="Hand Jewellery" class="card-image2">
+                <span class="card-name"> Gold Ring</span>
+                <span class="description"> every finger deserves a little sparkle – shop our gold rings today. - 1
+                    Gram gold</span>
+                <span class="price">₹ 15399</span>
+                <div class="buy-button-container">
+                    <a href="./../pages/login.html"><button class="button">
+                            Buy Now
+                        </button></a>
+                </div>
+            </div>
+            <div class="card-cont">
+                <img src="./../images/jewellery-images/oxide-rings.jpg" alt="Hand Jewellery" class="card-image2">
+                <span class="card-name"> Oxide Rings</span>
+                <span class="description">Oxide Rings are your perfect style companion!</span>
+                <span class="price">₹ 99</span>
+                <div class="buy-button-container">
+                    <a href="./../pages/login.html"><button class="button">
+                            Buy Now
+                        </button></a>
+                </div>
+            </div>
+            <div class="card-cont">
+                <img src="./../images/jewellery-images/oxide-bracelet.jpg" alt="Hand Jewellery" class="card-image2">
+                <span class="card-name">Oxide Bracelet</span>
+                <span class="description">Traditional charm meets modern fashion.</span>
+                <span class="price">₹150</span>
+                <div class="buy-button-container">
+                    <a href="./../pages/login.html"><button class="button">
+                            Buy Now
+                        </button></a>
+                </div>
+            </div>
+
+
+            <div class="Main-card-title-2">
+                <h2 id="Nose Pins">Nose Pins</h2>
+            </div>
+
+
+
+            <div class="crad-contanor">
+
+                <div class="card-cont">
+                    <img src="./../images/jewellery-images/nose-pin.jpg" alt="Nose Pins" class="card-image2">
+                    <span class="card-name"> Gold Nose Pin</span>
+                    <span class="description">Perfect gold nose pin for any occasion and daily use.</span>
+                    <span class="price">₹ 799</span>
+                    <div class="buy-button-container">
+                        <a href="./../pages/login.html"><button class="button">
+                                Buy Now
+                            </button></a>
+                    </div>
+                </div>
+
+                <div class="card-cont">
+                    <img src="./../images/jewellery-images/nose-pin-1.jpg" alt="Nose Pins" class="card-image2">
+                    <span class="card-name"> Silver Nose Pin</span>
+                    <span class="description">Perfect silver nose pin for any occasion and daily use.</span>
+                    <span class="price">₹ 499</span>
+                    <div class="buy-button-container">
+                        <a href="./../pages/login.html"><button class="button">
+                                Buy Now
+                            </button></a>
+                    </div>
+                </div>
+
+                <div class="card-cont">
+                    <img src="./../images/jewellery-images/oxide-nose-pins.jpg" alt="Nose Pins" class="card-image2">
+                    <span class="card-name">Oxide Nose Pins</span>
+                    <span class="description">A perfect blend of tradition and modern charm.</span>
+                    <span class="price">₹ 299</span>
+                    <div class="buy-button-container">
+                        <a href="./../pages/login.html"><button class="button">
+                                Buy Now
+                            </button></a>
+                    </div>
+                </div>
+                <div class="card-cont">
+                    <img src="./../images/jewellery-images/nose-pins-nath.jpg" alt="Nose Pins" class="card-image2">
+                    <span class="card-name">Nose Pins (Nath)</span>
+                    <span class="description"> Elevate your charm with our exquisite nose pins – where
+                        tradition meets elegance.</span>
+                    <span class="price">₹ 630</span>
+                    <div class="buy-button-container">
+                        <a href="./../pages/login.html"><button class="button">
+                                Buy Now
+                            </button></a>
+                    </div>
+                </div>
+                <div class="card-cont">
+                    <img src="./../images/jewellery-images/diamond-nose-pins.jpg" alt="Nose Pins" class="card-image2">
+                    <span class="card-name">Diamond Nose Pins</span>
+                    <span class="description">Perfect for daily use and any outfit.</span>
+                    <span class="price">₹ 800</span>
+                    <div class="buy-button-container">
+                        <a href="./../pages/login.html"><button class="button">
+                                Buy Now
+                            </button></a>
+                    </div>
+                </div>
+                <div class="card-cont">
+                    <img src="./../images/jewellery-images/oxide-nathani.jpg" alt="Nose Pins" class="card-image2">
+                    <span class="card-name"> Oxide Nathani</span>
+                    <span class="description">Add a touch of elegance to every outfit with our stunning Oxide
+                        Nathani collection – where tradition meets style!</span>
+                    <span class="price">₹ 199</span>
+                    <div class="buy-button-container">
+                        <a href="./../pages/login.html"><button class="button">
+                                Buy Now
+                            </button></a>
+                    </div>
+                </div>
+                <div class="card-cont">
+                    <img src="./../images/jewellery-images/bridal-nose-pin.jpg" alt="Nose Pins" class="card-image2">
+                    <span class="card-name">Bridal Nose Pin</span>
+                    <span class="description">Perfect for Weddings, traditional look or any event.</span>
+                    <span class="price">₹ 300 </span>
+                    <div class="buy-button-container">
+                        <a href="./../pages/login.html"><button class="button">
+                                Buy Now
+                            </button></a>
+                    </div>
+                </div>
+                <div class="card-cont">
+                    <img src="./../images/jewellery-images/maharashtrian-nath.jpg" alt="Nose Pins" class="card-image2">
+                    <span class="card-name">Maharashtrian Nath</span>
+                    <span class="description">Maharashtrian Nath – traditional, elegant, unique.</span>
+                    <span class="price">₹ 599</span>
+                    <div class="buy-button-container">
+                        <a href="./../pages/login.html"><button class="button">
+                                Buy Now
+                            </button></a>
+                    </div>
+                </div>
+
+            </div>
+            </div>
+            </div>
+           
     <footer>
         <div class="footer-container">
 
             <div class="footer-box">
                 <div>
-                    <img src="./../images/main-logo.png" alt="smart shop logo " height="70px"
+                    <img src="./../images/common-image/main-logo.png" alt="smart shop logo " height="70px"
                         style="justify-content: center; margin-left: 40px; border-radius: 50%; border:2px solid white;" />
                     <h1 style="margin:-5px 1px;">Shop Global</h1>
                 </div>
@@ -241,31 +635,33 @@
 
             <div class="footer-box">
                 <span class="quick-links">
-                    <img src="./../images/link.jpg" alt="smart shop logo" />
+                    <img src="./../images/common-image/link.jpg" alt="smart shop logo" />
                     Quick Links
                 </span>
                 <ul>
-                    <li><a href="./index.html">Fashion</a></li>
-                    <li><a href="./toy.html">kids & Toy </a></li>
-                    <li><a href="./electronics.html">Electronics</a></li>
-                    <li><a href="./jewellery.html">Jewellery</a></li>
-                    <li><a href="./cosmetics.html">Cosmetics</a></li>
-                    <li><a href="./grocery.html">Grocery</a></li>
+                    <li><a href="./../index.html">Home</a></li>
+                    <li><a href="./../pages/toy.html">Fashion</a></li>
+                    <li><a href="./../pages/toy.html">kids & Toy </a></li>
+                    <li><a href="./../pages/electronics.html">Electronics</a></li>
+                    <li><a href="./../pages/jewellery.html">Jewellery</a></li>
+                    <li><a href="./../pages/cosmetics.html">Cosmetics</a></li>
+                    <li><a href="./../pages/grocery.html">Grocery</a></li>
+                    <li><a href="./../pages/Help.html">Help</a></li>
                 </ul>
             </div>
 
 
             <div class="footer-box">
                 <span class="quick-links">
-                    <img src="./../images/operator.jpg" alt="smart shop logo" style="margin-bottom: 20px;" />
+                    <img src="./../images/common-image/operator.jpg" alt="smart shop logo" style="margin-bottom: 20px;" />
                     Contact Us / Help
                 </span>
-                <a href="mailto:shopglobal@gail.com"><img src="./../images/gmail.jpg" alt="smart shop logo"
+                <a href="mailto:shopglobal@gail.com"><img src="./../images/common-image/gmail.png" alt="smart shop logo"
                         class="footer-icon" />Email: shopglobal@gail.com</a><br><br>
-                <a href="tel:+1234567890"><img src="./../images/phone-call.jpg" alt="smart shop logo"
+                <a href="tel:+1234567890"><img src="./../images/common-image/phone-call.jpg" alt="smart shop logo"
                         class="footer-icon" />Phone: +1234567890</a> <br><br>
                 <a href="https://maps.app.goo.gl/nKYq8Nt4ysi98eAy7" target="_blank" class="footer-link">
-                    <img src="./../images/location.jpg" alt="location icon" class="footer-icon" />
+                    <img src="./../images/common-image/location.jpg" alt="location icon" class="footer-icon" />
                     <span>Address: Opposite Kalika Mandir, Old Agra Road, Nashik - 422002, Maharashtra</span>
                 </a>
 
@@ -273,24 +669,25 @@
 
             <div class="footer-box">
                 <span class="quick-links" style="padding-bottom: 10px;">
-                    <img src="./../images/add-friend.jpg" alt="smart shop logo"
+                    <img src="./../images/common-image/add-friend.jpg" alt="smart shop logo"
                         style="margin-bottom: 20px; border: 1px solid white;" />
                     follow Us<br>
                 </span>
 
-                <a href="https://www.facebook.com/MyZudio/" target="_blank"><img src="./../images/facebook.jpg"
+                <a href="https://www.facebook.com/MyZudio/" target="_blank"><img src="./../images/common-image/facebook.jpg"
                         alt="Facebook" class="footer-icon" />FaceBook</a><br><br>
-                <a href="https://www.instagram.com/myzudio/#" target="_blank"><img src="./../images/instagram.jpg"
+                <a href="https://www.instagram.com/myzudio/#" target="_blank"><img src="./../images/common-image/instagram.jpg"
                         alt="Instagram" class="footer-icon" />Instagram</a><br><br>
                 <a href="https://x.com/i/flow/login?redirect_after_login=%2Fsearch%3Fq%3D%2523%25F0%259D%2599%25AF%25F0%259D%2599%25AA%25F0%259D%2599%2599%25F0%259D%2599%259E%25F0%259D%2599%25A4%26src%3Dhashtag_click"
-                    target="_blank"><img src="./../images/twitter.jpg" alt="Twitter"
+                    target="_blank"><img src="./../images/common-image/twitter.jpg" alt="Twitter"
                         class="footer-icon" />Twitter</a><br><br>
             </div>
 
         </div>
 
+
         <p style="text-align:center; margin-top:20px;">&copy; 2025 Shop Global. All rights reserved.</p>
     </footer>
-                
-    </body>
+</body>
+
 </html>

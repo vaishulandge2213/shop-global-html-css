@@ -1,11 +1,9 @@
- 
- 
  .top-bar {
      position: absolute;
      top: 10px;
      right: 20px;
      font-size: 14px;
-       
+
  }
 
  .top-options {
@@ -14,19 +12,20 @@
      align-items: center;
      margin-right: 50px;
  }
+
  .top-link {
      color: #F6F8D5;
 
  }
 
- .name{
-    background-color:#184880;
-    text-align: center;
-    justify-content: center;
-    color: white;
-    padding: 1px;
+ .name {
+     background-color: #184880;
+     text-align: center;
+     justify-content: center;
+     color: white;
+     padding: 1px;
  }
-    
+
  .card-container {
      display: flex;
      flex-wrap: wrap;
@@ -57,26 +56,27 @@
      width: 100px;
      height: 100px;
      border-radius: 10px 10px 0px 0px;
-     padding:  5px 2px;
+     padding: 5px 2px;
      margin-top: 0px;
  }
- .links-text{
+
+ .links-text {
      color: black;
-    font-size: larger;
-    cursor: pointer;
+     font-size: larger;
+     cursor: pointer;
  }
 
 
- .Main-card-title-1{
-     background-color:#184880;
-    text-align: center;
-    justify-content: center;
-    color: white;
-    padding: 1px;  
-    width: 100%;
+ .Main-card-title-1 {
+     background-color: #184880;
+     text-align: center;
+     justify-content: center;
+     color: white;
+     padding: 1px;
+     width: 100%;
  }
 
-  .crad-contanor {
+ .crad-contanor {
      display: flex;
      flex-wrap: wrap;
      justify-content: center;
@@ -102,7 +102,7 @@
      height: 200px;
      border-radius: 20px;
      border: 2px solid #0C2B4E;
-     
+
  }
 
  .card-name {
@@ -112,8 +112,8 @@
      color: #1A3D64;
  }
 
- .card2{
-    background-color: #fff;
+ .card2 {
+     background-color: #fff;
      border: 2px solid #000000;
      border-radius: 100px 100px 10px 10px;
      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -189,43 +189,41 @@
      margin: 10px 20px;
  }
 
-.Main-card-title-2{
-    background-color:#184880;
-    text-align: center;
-    justify-content: center;
-    color: white;
-    padding: 1px;
-    width: 100%;  
+ .Main-card-title-2 {
+     background-color: #184880;
+     text-align: center;
+     justify-content: center;
+     color: white;
+     padding: 1px;
+     width: 100%;
 
-}
-
-
-.buy-button-1{
-text-align: center;
-background-color: #1A3D64; 
-color: white;
-font-size: 18px;
-border-radius: 10px;
-padding: 10px 10px ;
-border: none;
-width: 120px;
-font-weight: bold;
-margin-bottom: 10px;
-cursor: pointer;
-}
-.buy-button-1:hover{
-        background-color: #61ae4f;
-        transform: scale(1.05);
-}
-
-.button-buyy{
-    text-decoration: none;
-    color: white;
-}
+ }
 
 
+ .buy-button-1 {
+     text-align: center;
+     background-color: #1A3D64;
+     color: white;
+     font-size: 18px;
+     border-radius: 10px;
+     padding: 10px 10px;
+     border: none;
+     width: 120px;
+     font-weight: bold;
+     margin-bottom: 10px;
+     cursor: pointer;
+ }
 
-@media (max-width: 768px){
+ .buy-button-1:hover {
+     background-color: #61ae4f;
+     transform: scale(1.05);
+ }
 
-}
- 
+ .button-buyy {
+     text-decoration: none;
+     color: white;
+ }
+
+
+
+ @media (max-width: 768px) {}

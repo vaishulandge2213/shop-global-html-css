@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 85%;
+    max-width: 1000px;
+    margin: 80px auto;
+    background: #fff;
+    display: flex;
+    gap: 40px;                
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.left-section {
+    flex: 0 0 55%;
+    padding: 20px;
+}
+
+.left-section h1 {
+    color: #0C2B4E;
+    font-size: 30px;
+}
+
+.left-section p {
+    margin-top: 10px;
+    color: #555;
+}
+
+.Feedback-img img {
+    width: 100%;
+    max-width: 320px;        
+    margin-top: 20px;
+    display: block;
+}
+
+.right-section {
+    flex: 0 0 40%;
+    background: #1D546c;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    color: #fff;              
+}
+
+.right-section h2 {
+    color: #fff;              
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    text-align: left;
+    margin: 12px 0 6px;
+    font-size: 14px;
+    color: #fff;
+}
+
+form label img {
+    vertical-align: middle;
+    margin-right: 4px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form select,
+form textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+form select {
+    height: 42px;
+}
+
+form textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+form button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background: #0C2B4E;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition:  0.3s;
+}
+
+form button[type="submit"]:hover {
+    background: #093147;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .left-section,
+    .right-section {
+        flex: 1 1 100%;
+        width: 100%;
+    }
+
+    form label {
+        text-align: center;
+    }
+}
