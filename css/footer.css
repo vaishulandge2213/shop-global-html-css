@@ -44,10 +44,11 @@ footer {
 .footer-box a:hover {
     text-decoration: underline;
 }
+
 .quick-links {
     display: flex;
     align-items: center;
-    gap: 8px;       
+    gap: 8px;
     font-size: 18px;
     color: white;
 }
@@ -58,14 +59,15 @@ footer {
     border-radius: 50%;
     border: 1px solid white;
     object-fit: cover;
-    margin-top: 5px;   
+    margin-top: 5px;
 }
-.footer-icon{
+
+.footer-icon {
     width: 30px;
     height: 28px;
     margin-right: 10px;
     border-radius: 30%;
     border: 1px solid white;
-       
+
 
 }
