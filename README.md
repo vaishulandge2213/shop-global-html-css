@@ -40,7 +40,7 @@ This project focuses on providing a clean UI, smooth navigation, and a simple ye
 ## How to run
 
 ### Hosting link
-- 
+- https://shop-global.vercel.app/
 
 ### github link
 - https://github.com/SejalPhalak/shop-global-html-css.git
